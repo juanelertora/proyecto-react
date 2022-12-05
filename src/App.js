@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { Routes, Route } from "react-router-dom"
+import Carrusel from './components/Carrusel';
+import Card from './components/Card';
 
-import Productos from "./pages/Productos";
-import Home from "./pages/Home";
+import { Routes, Route } from "react-router-dom"
 
 function App() {
   return (
@@ -14,9 +14,11 @@ function App() {
       </div>
       <div>
       <Routes>
-        <Route path="productos" element={ <Productos/>}/>
-        <Route path="home" element={<Home/>}/>
+        <Route path="/" element={<Carrusel/>}/>
+        <Route path="productos" element={<Card/>}/>
       </Routes>
+      </div>
+      <div>
       </div>
       <div>
         <Footer/>
