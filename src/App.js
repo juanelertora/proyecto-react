@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Carrusel from './components/Carrusel';
 import Card from './components/Card';
+import Productos from './components/Productos';
 
 import { Routes, Route } from "react-router-dom"
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
           <div>
         <Header/>
+        
       </div>
       <div>
       <Routes>
@@ -21,6 +23,7 @@ function App() {
       <div>
       </div>
       <div>
+        <Productos/>
         <Footer/>
       </div>
     </div>

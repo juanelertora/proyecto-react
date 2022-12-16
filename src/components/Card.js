@@ -4,12 +4,32 @@ import d3 from '../img/cards/d3.jpg';
 import d4 from '../img/cards/d4.jpg';
 import d5 from '../img/cards/d5.jpg';
 import d6 from '../img/cards/d6.jpg';
-
+import axios from "axios";
+import { useEffect } from 'react';
 
 
 const Card = () => {
+   useEffect (() => {
+    axios.get("http://localhost:3001/productos")
+    .then(function (response) {
+      
+      console.log(response.data);
+    })
+    .catch(function (error) {
+     
+      console.log(error);
+    })
+    .then(function () {
+   
+    });
+
+   } )
+
+// Hacer una petición para un usuario con ID especifico
+
+
     return (
-        <><div className="card-group" style={{maxWhith:200, }}>
+        <><div className="card-group" style={{Whith:200, }}>
             <div className="card" style={{ width: 18, margin: 10, borderRadius: 10 }}>
                 <img src={d1} className="card-img-top" alt="d1" />
                 <div className="card-body">

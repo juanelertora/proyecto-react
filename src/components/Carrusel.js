@@ -5,7 +5,7 @@ import c3 from '../img/carrusel/c3.jpg';
 
 const Carrusel = () => {
     return (
-<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" style={{maxWhdth: 1000, mixHeight: 350}}>
+<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" style={{maxWhdth: 1000, mixHeight: 350, margin: 10}}>
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
