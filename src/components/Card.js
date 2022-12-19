@@ -1,3 +1,4 @@
+
 import axios from "axios";
 import { useEffect } from 'react';
 import { useState } from "react";
@@ -32,6 +33,7 @@ const Card = () => {
                         <h6> {producto.modelo}  {producto.marca}   </h6>
                         <p className="precio">${producto.precio}</p>
                         <button>Añadir al carrito</button>
+
 
                     </div>
 

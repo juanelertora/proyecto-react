@@ -1,3 +1,4 @@
+import Carousel from 'react-bootstrap/Carousel';
 
 import c1 from '../img/carrusel/c1.jpg';
 import c2 from '../img/carrusel/c2.jpg';
@@ -5,7 +6,7 @@ import c3 from '../img/carrusel/c3.jpg';
 
 const Carrusel = () => {
     return (
-<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" style={{maxWhdth: 1000, mixHeight: 350}}>
+<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" >
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>

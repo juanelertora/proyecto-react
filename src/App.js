@@ -10,8 +10,11 @@ import { Routes, Route } from "react-router-dom"
 function App() {
   return (
     <div className="App">
-      <div>
-        <Header />
+
+          <div>
+        <Header/>
+        
+
       </div>
       <div>
         <Routes>
@@ -22,8 +25,10 @@ function App() {
       <div>
       </div>
       <div>
-        <Productos></Productos>
-        <Footer />
+
+        <Productos/>
+        <Footer/>
+
       </div>
     </div>
   );
