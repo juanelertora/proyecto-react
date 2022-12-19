@@ -10,21 +10,25 @@ import { Routes, Route } from "react-router-dom"
 function App() {
   return (
     <div className="App">
+
           <div>
         <Header/>
         
+
       </div>
       <div>
-      <Routes>
-        <Route path="/" element={<Carrusel/>}/>
-        <Route path="productos" element={<Card/>}/>
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Carrusel />} />
+          <Route path="productos" element={<Card />} />
+        </Routes>
       </div>
       <div>
       </div>
       <div>
+
         <Productos/>
         <Footer/>
+
       </div>
     </div>
   );

@@ -2,24 +2,24 @@ import axios from "axios";
 import { useEffect } from 'react';
 import { useState } from "react";
 
- const Productos = () => {
-    const [productos, setProductos] = useState ([])
-    useEffect (() => {
-        axios.get("http://localhost:3001/productos")
-        .then((response =>  {
-            setProductos(response.data)
-          
-          
-        }))
-        .catch(function (error) {
-         
-          console.log(error);
-        })
-        .then(function () {
-       
-        });
-    
-       } )
+const Productos = () => {
+    const [productos, setProductos] = useState([])
+    useEffect(() => {
+        axios.get("http://localhost:3001/productosHome")
+            .then((response => {
+                setProductos(response.data)
+
+
+            }))
+            .catch(function (error) {
+
+                console.log(error);
+            })
+            .then(function () {
+
+            });
+
+    })
     return (
         <div className="conteiner-items"  >
             {productos.map(producto => (
@@ -40,5 +40,5 @@ import { useState } from "react";
 
         </div>
     )
- }
- export default Productos;
+}
+export default Productos;

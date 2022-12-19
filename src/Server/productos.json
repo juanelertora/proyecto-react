@@ -1,89 +1,210 @@
-
 {
+  "productosHome": [
+    {
+      "id": 1,
+      "nombre": "Camiseta alternativa",
+      "img": "https://i.postimg.cc/vZZr7NZ5/d1.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 16000,
+      "clasificacion": "Camisetas"
+    },
+    {
+      "id": 2,
+      "nombre": "Camiseta tituar",
+      "img": "https://i.postimg.cc/8P2GMqH0/d2.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 16000,
+      "clasificacion": "Camisetas'"
+    },
+    {
+      "id": 3,
+      "nombre": "Campera Anthem game day",
+      "img": "https://i.postimg.cc/VNMdXqnj/d3.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 20000,
+      "clasificacion": "Camperas"
+    },
+    {
+      "id": 4,
+      "nombre": "Camiseta entrenamiento",
+      "img": "https://i.postimg.cc/VsTPP33k/d4.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 12000,
+      "clasificacion": "Camisetas"
+    },
+    {
+      "id": 5,
+      "nombre": "Camiseta prepartido",
+      "img": "https://i.postimg.cc/0jK3NyL2/d5.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 13000,
+      "clasificacion": "Camisetas"
+    },
+    {
+      "id": 6,
+      "nombre": "Chomba prepartido",
+      "img": "https://i.postimg.cc/x1P0Q6vp/d6.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 11500,
+      "clasificacion": "Chombas"
+    }
+  ],
+ 
   "productos": [
     {
-    "id": 1,
-    "nombre": "Camiseta alternativa",
-    "img": "https://i.postimg.cc/vZZr7NZ5/d1.jpg",
-    "modelo": "Mundial Qatar 2022",
-    "marca": "Adidas",
-    "precio": 16000,
-    "clasificacion": "Camisetas"
+      "id": 1,
+      "nombre": "Camiseta alternativa",
+      "img": "https://i.postimg.cc/vZZr7NZ5/d1.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 16000,
+      "clasificacion": "Camisetas"
     },
     {
-    "id": 2,
-    "nombre": "Camiseta tituar",
-    "img": "https://i.postimg.cc/8P2GMqH0/d2.jpg",
-    "modelo": "Mundial Qatar 2022",
-    "marca": "Adidas",
-    "precio": 16000,
-    "clasificacion": "Camisetas'"
+      "id": 2,
+      "nombre": "Camiseta tituar",
+      "img": "https://i.postimg.cc/8P2GMqH0/d2.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 16000,
+      "clasificacion": "Camisetas'"
     },
     {
-    "id": 3,
-    "nombre": "Campera Anthem game day",
-    "img": "https://i.postimg.cc/VNMdXqnj/d3.jpg",
-    "modelo": "Mundial Qatar 2022",
-    "marca": "Adidas",
-    "precio": 20000,
-    "clasificacion": "Camperas"
+      "id": 3,
+      "nombre": "Campera Anthem game day",
+      "img": "https://i.postimg.cc/VNMdXqnj/d3.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 20000,
+      "clasificacion": "Camperas"
     },
     {
-    "id": 4,
-    "nombre": "Camiseta entrenamiento",
-    "img": "https://i.postimg.cc/VsTPP33k/d4.jpg",
-    "modelo": "Mundial Qatar 2022",
-    "marca": "Adidas",
-    "precio": 12000,
-    "clasificacion": "Camisetas"
+      "id": 4,
+      "nombre": "Camiseta entrenamiento",
+      "img": "https://i.postimg.cc/VsTPP33k/d4.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 12000,
+      "clasificacion": "Camisetas"
     },
     {
-    "id": 5,
-    "nombre": "Camiseta prepartido",
-    "img": "https://i.postimg.cc/0jK3NyL2/d5.jpg",
-    "modelo": "Mundial Qatar 2022",
-    "marca": "Adidas",
-    "precio": 13000,
-    "clasificacion": "Camisetas"
+      "id": 5,
+      "nombre": "Camiseta prepartido",
+      "img": "https://i.postimg.cc/0jK3NyL2/d5.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 13000,
+      "clasificacion": "Camisetas"
     },
     {
-    "id": 6,
-    "nombre": "Chomba prepartido",
-    "img":"https://i.postimg.cc/x1P0Q6vp/d6.jpg",
-    "modelo": "Mundial Qatar 2022",
-    "marca": "Adidas",
-    "precio": 11500,
-    "clasificacion": "Chombas"
+      "id": 6,
+      "nombre": "Chomba prepartido",
+      "img": "https://i.postimg.cc/x1P0Q6vp/d6.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 11500,
+      "clasificacion": "Chombas"
+    },
+    {
+      "id": 7,
+      "nombre": "Pantalon Azul",
+      "img": "https://i.postimg.cc/k5v2gLZk/d7.webp",
+      "modelo": "Pantalon de entrenamiento",
+      "marca": "Adidas",
+      "precio": 19999,
+      "clasificacion": "Pantalones"
+    },
+    {
+      "id": 8,
+      "nombre": "Short Titular",
+      "img": "https://i.postimg.cc/sX0DBzJ0/d8.webp",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 9999,
+      "clasificacion": "Pantalones"
+    },
+    {
+      "id": 9,
+      "nombre": "Medias",
+      "img": "https://i.postimg.cc/fWpRDwyV/d9.webp",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 3999,
+      "clasificacion": "Medias"
+    },
+    {
+      "id": 10,
+      "nombre": "Botines Nemeziz",
+      "img": "https://i.postimg.cc/0NV93vh2/d10.webp",
+      "modelo": "Nemeziz + Terreno Firme",
+      "marca": "Adidas",
+      "precio": 57999,
+      "clasificacion": "Zapatillas"
+    },
+    {
+      "id": 11,
+      "nombre": "Medias Altenativa",
+      "img": "https://i.postimg.cc/sfkGKPpH/d11.jpg",
+      "modelo": "Mundial Qatar 2022",
+      "marca": "Adidas",
+      "precio": 3999,
+      "clasificacion": "Medias"
+    },
+    {
+      "id": 12,
+      "nombre": "Botines Nemeziz",
+      "img": "https://i.postimg.cc/4dryLZhH/d12.webp",
+      "modelo": "Nemeziz 19",
+      "marca": "Adidas",
+      "precio": 69999,
+      "clasificacion": "Zapatillas"
     }
-  ],
 
+  ],
   "categorias": [
     {
-    "nombre": "Camisetas",
-    "id": 1
+      "nombre": "Camisetas",
+      "id": 1
     },
     {
-    "nombre": "Camperas",
-    "id": 2
+      "nombre": "Camperas",
+      "id": 2
     },
     {
-    "nombre": "Chombas",
-    "id": 3
+      "nombre": "Chombas",
+      "id": 3
+    },
+    {
+      "nombre": "Pantalones",
+      "id": 4
+    },
+    {
+      "nombre": "Medias",
+      "id": 5
+    },
+    {
+      "nombre": "Zapatillas",
+      "id": 6
     }
   ],
-  
   "marcas": [
     {
-    "nombre": "Adidas",
-    "id": 1
+      "nombre": "Adidas",
+      "id": 1
     },
     {
-    "nombre": "Nike",
-    "id": 2
+      "nombre": "Nike",
+      "id": 2
     },
     {
-    "nombre": "Puma",
-    "id": 3
+      "nombre": "Puma",
+      "id": 3
     }
   ]
 }
