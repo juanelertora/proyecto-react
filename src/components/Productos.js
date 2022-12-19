@@ -21,7 +21,7 @@ import { useState } from "react";
     
        } )
     return (
-        <div className="conteiner-items" style={{margin:10}}>
+        <div className="conteiner-items"  >
             {productos.map(producto => (
                 <div className="item" key={producto.id}>
                     <figure>

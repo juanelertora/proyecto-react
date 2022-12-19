@@ -19,19 +19,22 @@ code {
     monospace;
 }
 
-.container-items {
+.conteiner-items {
 	
 	
 	display: grid;
-	margin: 10;
+	margin: 10px;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
+	justify-content: center;
+	align-items: center;
   
 }
 
 .item {
 	border-radius: 10px;
 	width: 250px;
+	background-color: rgb(234, 234, 234);
 }
 
 .item:hover {
@@ -54,7 +57,7 @@ code {
 	transform: scale(1.2);
 }
 
-.info-product {
+.info-producto {
 	padding: 15px 30px;
 	line-height: 2;
 	display: flex;
@@ -62,16 +65,37 @@ code {
 	gap: 10px;
 }
 
-.price {
+.precio {
 	font-size: 18px;
 	font-weight: 900;
 }
 
-.info-product button {
+.info-producto button {
 	border: none;
 	background: none;
 	background-color: #000;
 	color: #fff;
 	padding: 15px 10px;
 	cursor: pointer;
+}
+@media (max-width:700px){
+	.conteiner-items {
+	
+	
+		display: grid;
+		margin: 10px;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+	}
+}
+@media (max-width: 500px){
+	
+	.conteiner-items {
+	
+	
+		display: grid;
+		margin: 10px;
+		grid-template-columns: repeat(1, .1fr);
+		gap: 20px;
+	}
 }
