@@ -5,7 +5,7 @@ import { useState } from "react";
  const Productos = () => {
     const [productos, setProductos] = useState ([])
     useEffect (() => {
-        axios.get("http://localhost:3001/productos")
+        axios.get("http://localhost:3001/productosHome")
         .then((response =>  {
             setProductos(response.data)
           
