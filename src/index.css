@@ -1,137 +1,143 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
 }
+
 .conteiner-items-card {
-	
-	
-	display: grid;
-	margin: 10px;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 20px;
-	justify-content: center;
-	align-items: center;
-  
+
+
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .conteiner-items {
-	
-	
-	display: grid;
-	margin: 10px;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 20px;
-	justify-content: center;
-	align-items: center;
-  
+
+
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .item {
-	border-radius: 10px;
-	width: 250px;
-	background-color: rgb(234, 234, 234);
+    border-radius: 10px;
+    width: 250px;
+    background-color: rgb(234, 234, 234);
 }
 
 .item:hover {
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .item img {
-	width: 100%;
-	height: 300px;
-	object-fit: cover;
-	border-radius: 10px 10px 0 0;
-	transition: all 0.5s;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all 0.5s;
 }
 
 .item figure {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .item:hover img {
-	transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .info-producto {
-	padding: 15px 30px;
-	line-height: 2;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .precio {
-	font-size: 18px;
-	font-weight: 900;
+    font-size: 18px;
+    font-weight: 900;
 }
 
 .info-producto button {
-	border: none;
-	background: none;
-	background-color: #000;
-	color: #fff;
-	padding: 15px 10px;
-	cursor: pointer;
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
 }
-@media (max-width:1000px){
-	.conteiner-items-card {
-	
-	
-		display: grid;
-		margin: 10px;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 20px;
-	}}
-  @media (max-width:700px){
-    .conteiner-items {
-    
-    
-      display: grid;
-      margin: 10px;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-    }
-  }
-  @media (max-width: 500px){
-    
-    .conteiner-items-card {
-    
-    
-      display: grid;
-      margin: 10px;
-      grid-template-columns: repeat(1, .1fr);
-      gap: 20px;
-    }
-  }
-  
 
-@media (max-width:700px){
-	.conteiner-items-card {
-	
-	
-		display: grid;
-		margin: 10px;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 20px;
-	}
+@media (max-width:1000px) {
+    .conteiner-items-card {
+
+
+        display: grid;
+        margin: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 }
-@media (max-width: 500px){
-	
-	.conteiner-items {
-	
-	
-		display: grid;
-		margin: 10px;
-		grid-template-columns: repeat(1, .1fr);
-		gap: 20px;
-	}
+
+@media (max-width:700px) {
+    .conteiner-items {
+
+
+        display: grid;
+        margin: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .conteiner-items-card {
+
+
+        display: grid;
+        margin: 10px;
+        grid-template-columns: repeat(1, .1fr);
+        gap: 20px;
+    }
+}
+
+
+@media (max-width:700px) {
+    .conteiner-items-card {
+
+
+        display: grid;
+        margin: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .conteiner-items {
+
+
+        display: grid;
+        margin: 10px;
+        grid-template-columns: repeat(1, .1fr);
+        gap: 20px;
+    }
 }
